@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- <ImageView
+             android:id="@+id/imgItem"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:scaleType="fitXY"
+            android:src="@drawable/title"
+             />-->
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:layout_gravity="left"
+                    android:hint="@string/tvName"
+                    />
+
+
+
+            <EditText
+                android:id="@+id/etTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="25sp"
+                android:layout_gravity="left"
+                android:hint="@string/tvTitle"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/etDescp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:textSize="25sp"
+                android:layout_gravity="left"
+                android:hint="@string/tvDescp"
+                                />
+    <EditText
+        android:id="@+id/etLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="left"
+        android:hint="@string/tvLink"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_below="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AddBack"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        />
+
+
+</LinearLayout>

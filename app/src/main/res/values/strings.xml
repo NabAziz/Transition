@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecyclerFragment</string>
+    <string name="tvTitle">Title</string>
+
+    <string name="tvDescp">Description</string>
+    <string name="tvName">Name</string>
+    <string name="tvDash">--</string>
+    <string name="tvTime">Time</string>
+    <string name="tvLink">URL</string>
+
+</resources>
